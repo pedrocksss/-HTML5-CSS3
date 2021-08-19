@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Ties - Login</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <script src="js/olho.js"></script>
+    <script src="js/mask.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+</head>
+<body> 
+    <main>
+        <section>
+            <img src="assets/images/ties-logo-b.svg" alt="ties-logo">
+            <form>
+                <ol>
+                    <li>
+                        <h1>Entrar</h1>
+                    </li>
+                    <li>
+                        <input type="text" id="CPF" placeholder="Digite seu CPF:" required>
+                    </li>
+                    <li>
+                        <input type="password" id="Password" placeholder="Digite sua Senha:" required>
+                        <i class="fa fa-eye" id="eye" onclick="eye()"></i>
+                    </li>
+                    <li>
+                        <a href="#"><strong>Esqueceu a senha?</strong></a>
+                    </li>
+                    <li>
+                        <button type="submit">Entrar</button>
+                    </li>
+                </ol> 
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            medidas relativas
+            em, ex, rem, vw, vh, %
+            */
+            font-size: 1.5em;
+        }
+
+        /* shorthand font
+
+        font-style -> font-weight -> font-size -> font-family
+        
+        font-family: 'work-sans', sans-serif;
+        font-wight: bolder;
+        font-size: 3em;
+        font-style: italic;
+        */
+        h1{
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'work-sans';
+        }
+    </style>
+</head>
+<body>
+
+    <h1>trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, quibusdam ipsam earum labore ipsum fuga doloremque exercitationem veritatis repellendus quo ratione enim, harum provident nemo assumenda eos. Nesciunt, culpa dignissimos.</p>
+    <h2>subtitulo </h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla maxime esse id dignissimos, ducimus exercitationem? Modi dolorem illum cupiditate accusamus repudiandae culpa sed sit consequuntur, earum aliquid saepe praesentium corrupti!</p>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: -webkit-linear-gradient(#eef1f5, #CBE1FA);
+    font-family: 'Avenir', Helvetica, sans-serif
+}
+
+
+
+.load{
+    animation: is-rotating 1s infinite;
+    width: 250px;
+    height: 250px;
+    border: 30px solid white;
+    border-radius: 50%;
+    border-top-color: #005bea;
+    position: absolute;
+}
+
+@keyframes is-rotating {
+    to{
+        transform: rotate(1turn);
+    }
+}
+
+h2{
+    font-size: 20px;
+    color: #005bea;
+    position: absolute;
+}
+
+
+header img{
+    position: fixed;
+    left: 100px;
+    top: 20px
+}
